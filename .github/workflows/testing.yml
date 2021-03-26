@@ -35,4 +35,4 @@ jobs:
 #          arch: x86_64
 #          profile: avdmanager list
 #          script: ./gradlew connectedAndroidTest
-          script: $ANDROID_HOME/tools/bin/avdmanager list
+          script: avdmanager list
