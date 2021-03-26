@@ -32,5 +32,5 @@ jobs:
           api-level: ${{ matrix.api-level }}
           target: default
           arch: x86_64
-          profile: ${{ matrix.profile }}
+          profile: avdmanager list
           script: ./gradlew connectedAndroidTest
