@@ -21,8 +21,8 @@ jobs:
     runs-on: [ macos-latest ]
     strategy:
       matrix:
-        api-level: [21, 28, 30]
-        profile: [Nexus 6, Pixel 4]
+        api-level: [30]
+        profile: [Pixel 4]
     steps:
       - uses: actions/checkout@v2
 
